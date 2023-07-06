@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class InvalidDataFormatException {
+class InvalidDataFormatException extends Exception {
+    public InvalidDataFormatException(String message) {
+        super(message);
+    }
 }
